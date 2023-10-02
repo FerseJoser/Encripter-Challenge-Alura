@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;1,100&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="item-1">
+            <a id="logo" href="index.html"><img src="img/Logo-1.png" alt="Alura"></a>
+        </div>
+
+        <div class="item-2">
+
+            <textarea class="textAreaInput" name="text" id="textArea" placeholder="Ingrese el texto aqui"></textarea>
+
+
+            <label class="aviso" for=""><img src="img/bi_exclamation-circle-fill.png" alt=""> Solo minusculas y sin
+                acentos</label>
+
+            <div class="buttons">
+                <button class="btnEncrypt" id="btnEncrypt">Encriptar</button>
+                <button class="btnDecrypt" id="btnDecrypt">Desencriptar</button>
+            </div>
+        </div>
+
+        <div class="item-3">
+            <div class="encryptText">
+                <img class="preuncrypt" src="img/Muñeco.png" alt="">
+                <p class="preuncrypt">ningún mensaje ha sido encriptado</p>
+                <p class="preuncrypt">ingresa el texto que desees encriptar o desencriptar</p>
+                <textarea  id="textAreaOutput" placeholder="Ingresa el texto aqui"></textarea>
+                <button id="copy" >Copiar</button>
+            </div>
+        </div>
+
+    </div>
+
+
+
+</body>
+
+<script src="script.js"></script>
+
+</html>

@@ -1,0 +1,106 @@
+*{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+    background-color: #F3F5FC;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 10% 1fr 1fr;
+}
+
+.item-2{
+    display: flex;
+    flex-direction: column;
+}
+
+.textAreaInput{
+    width: 100%;
+    height: 500px;
+    color: #0A3871;;
+    background-color: #F3F5FC;
+    border: none;
+    outline: none;
+    resize: none;
+    padding: 0 20px;
+}
+
+.aviso{
+    color: #343A40;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.btnEncrypt{
+    width: 328px;
+    height: 67px;
+    background-color: #0A3871;
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+.btnDecrypt{
+    width: 328px;
+    height: 67px;
+    background-color: #D8DFE8;
+    color: #343a40;
+    padding: 15px;
+    border-radius: 24px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.item-3{
+    width: 350px;
+}
+
+.encryptText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    padding: 10px 10px;
+    border-radius: 25px;
+    background-color: #ffffff;
+}
+
+
+.encryptText p{
+    color: #343A40;
+    font-family: 'josefin-sans';
+}
+
+.encryptText p:first-of-type{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.item-3 textarea{
+    border: none;
+    display: none;
+    font-weight: bold;
+    color:#343A40;
+    background-color: #ffffff;
+    resize: none;
+}
+
+.item-3 button{
+    display: none;
+    padding: 10px;
+    background-color: #ffffff;
+    color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 10px;
+}
+
